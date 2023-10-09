@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">توريق</string>
+    <string name="long_app_name">تـــــوريـــــق</string>
+    <string name="welcomeText">أهلاَ بكم في برنامجنا توريق</string>
+    <string name="skip">تخطي</string>
+    <string name="Next">التالي</string>
+
+    <string name="text1one">تبادل الكتب بين الأصدقاء !</string>
+    <string name="text2one">يمكنك الآن التخلص من مشكلة تكدس الكتب</string>
+
+    <string name="text1two">تواصل بشكل مباشر !</string>
+    <string name="text2two">يمكنك التواصل بسهولة مع مُلّاك الكتب</string>
+
+    <string name="text1three">بدون أي تكلفة مالية !</string>
+    <string name="text2three">لامزيد من الكتب باهظة الثمن</string>
+
+    <string name="aGuest">الاستمرار كضيف</string>
+    <string name="pleaseLoginFirst">من فضلك سجل دخولك اولا</string>
+    <string name="login">تسجيل</string>
+
+    <string name="Sign_in_Text">تسجيل الدخول</string>
+    <string name="Sign_up_Text">تسجيل</string>
+    <string name="Sign_in_SuccessfullyText">تم تسجيل الدخول بنجاح !</string>
+    <string name="Sign_up_SuccessfullyText">تم التسجيل بنجاح !</string>
+    <string name="Sign_up_FailedText">لم يتم التسجيل !</string>
+    <string name="Sign_in_FailedText">البريد الإلكتروني أو كلمة المرور خاطئة</string>
+
+
+    <string name="emailText">* البريد الالكتروني</string>
+    <string name="passwordText">* كلمة المرور</string>
+    <string name="hint_Email_Password">ادخل البريد الالكتروني و كلمة المرور</string>
+    <string name="emailIsRequired">البريد الإلكتروني مطلوب</string>
+    <string name="please_enter_valid_email">الرجاء إدخال بريد إلكتروني صالح !!!</string>
+    <string name="passwordIsRequired">كلمة المرور مطلوبة</string>
+    <string name="minimumLength">يجب أن يكون الحد الأدنى لطول كلمة المرور 8</string>
+    <string name="hint_sign_up">ادخل البريد الإلكتروني و كلمة المرور و الأسم الاول و الأخير و رقم الهاتف</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="hintPassword">**********</string>
+    <string name="passwordNotSpace">يجب ان لا تحتوي كلمة المرور على مسافة !!!</string>
+    <string name="passwordDontMatch">كلمة المرور غير متطابقة</string>
+    <string name="userNameIsRequired">اسم المستخدم مطلوب</string>
+    <string name="phone_number_is_required">رقم الهاتف مطلوب</string>
+    <string name="AlreadyRegistered">انت مسجل مسبقا …</string>
+    <string name="noConnection">لا يوجد اتصال بالإنترنت …</string>
+    <string name="userNotFound">لم يتم العثور على هذا المستخدم …</string>
+    <string name="passwordIncorrect">كلمة المرور غير صحيحة …</string>
+    <string name="Enter_password_many_times">حاولت إدخال كلمة المرور عدة مرات \n حاول بعد دقيقة واحدة</string>
+
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="Book">كتاب</string>
+    <string name="Slide">سلايد</string>
+    <string name="add">إضافة</string>
+    <string name="home">الرئيسة</string>
+    <string name="search">البحث</string>
+    <string name="myBooks">كـتبي</string>
+    <string name="chat">المحادثات</string>
+    <string name="profile">حسابي</string>
+
+    <string name="addOtherImage">اضافة صورة أخري</string>
+    <string name="AddImage">* اضافة صورة الغلاف</string>
+    <string name="addButton">الأضافة</string>
+    <string name="editButton">التعديل</string>
+    <string name="ItemTitle">* عنوان</string>
+    <string name="BookTitle">* عنوان الكـتاب</string>
+    <string name="bookTitle">عنوان الكـتاب</string>
+    <string name="SlideTitle">* عنوان السـلايد</string>
+    <string name="slideTitle">عنوان السـلايد</string>
+    <string name="ItemName">* الاسـم المالك</string>
+    <string name="BookName">* اســم الكـاتب</string>
+    <string name="bookName">اســم الكـاتب</string>
+    <string name="SlideName">* اسـم معلم المـاده</string>
+    <string name="slideName">اسـم معلم المـاده</string>
+    <string name="ItemType">* النوع</string>
+    <string name="itemType">النوع</string>
+    <string name="Type">نـوع الدبلوم</string>
+    <string name="Programming">دبلوم برمجة</string>
+    <string name="Multimedia">دبلوم وسائط</string>
+    <string name="CourseName">* اسم المقرر</string>
+    <string name="courseName">اســـم المقـــرر</string>
+    <string name="CourseCode">* رمز المقرر</string>
+    <string name="courseCode">رمـــز المقـــرر</string>
+    <string name="BookStatus">* حالة الكـتاب</string>
+    <string name="bookStatus">حـــالة الكتـــاب</string>
+    <string name="SlideStatus">* حالة السـلايد</string>
+    <string name="slideStatus">حـــالة الســلايد</string>
+    <string name="Status">الحـــالة</string>
+    <string name="AcademicYear">* السنة الدراسية</string>
+    <string name="academicYear">السنة الدراسية</string>
+    <string name="Semester">* الفصل الدراسي</string>
+    <string name="semester">الفصل الدراسي</string>
+    <string name="Date">تاريخ التحميل</string>
+
+    <string name="coverImageIsRequired">صورة الغلاف مطلوبة</string>
+    <string name="addressIsRequired">العنوان مطلوب</string>
+    <string name="nameIsRequired">الأسم مطلوب</string>
+    <string name="typeIsRequired">من فضلك حدد النوع</string>
+    <string name="courseNameIsRequired">اســـم المقـــرر مطلوب</string>
+    <string name="courseCodeIsRequired">رمـــز المقـــرر مطلوب</string>
+    <string name="bookStatusIsRequired">حـــالة الكتـــاب مطلوب</string>
+    <string name="academicYearIsRequired">السنة الدراسية مطلوبة</string>
+    <string name="semesterIsRequired">الفصل الدراسي مطلوب</string>
+    <string name="dateIsRequired">تاريخ الرفع مطلوب</string>
+    <string name="gallery">الاستوديو</string>
+    <string name="camera">الكاميرا</string>
+
+    <string name="successfullyAddedBook">تم إضافة الكتـــاب بنجاح</string>
+    <string name="successfullyAddedSlide">تم إضافة الســلايد بنجاح</string>
+
+    <string name="successfullyEditedBook">تم تعديل الكتـــاب بنجاح</string>
+    <string name="successfullyEditedSlide">تم تعديل الســلايد بنجاح</string>
+
+    <string name="areYouSureDeleteBook">هل انت متاكد من حذف الكتاب !</string>
+    <string name="areYouSureDeleteSlide">هل انت متاكد من حذف السـلايد !</string>
+
+    <string name="successfullyDeletedBook">تم حذف الكتـــاب بنجاح</string>
+    <string name="successfullyDeletedSlide">تم حذف الســلايد بنجاح</string>
+
+    <string name="noBookFound">لا يوجد لديك كتب للتعديل !</string>
+    <string name="edit">تعديل</string>
+    <string name="saveButton">حفظ</string>
+
+    <string name="Sort_by">فرز حسب</string>
+    <string name="Sort_by_Book">فرز حسب الكـتب</string>
+    <string name="Sort_by_Slide">فرز حسب السـلايد</string>
+    <string name="Sort_by_Programming">فرز حسب دبلوم برمجة</string>
+    <string name="Sort_by_Media">فرز حسب دبلوم الوسائط المتعددة</string>
+
+    <string name="Comments">التعليقات</string>
+    <string name="successfullyAddedComment">تم إرسال تعليق بنجاح</string>
+    <string name="viewComments">مشاهدة التعليقات</string>
+    <string name="addComment">اضافة تعليق</string>
+    <string name="chatOwner">محادثة المالك</string>
+    <string name="enterComment">ادخل تعليقك :</string>
+    <string name="permissionDenied">تم رفض الإذن</string>
+    <string name="updatedSuccessfully">تم تحديث صورة البروفايل بنجاح</string>
+    <string name="havent_change_image">لم تقم بتغيير الصورة</string>
+    <string name="emailUpdateSuccessfully">تم تحديث البريد الإلكتروني بنجاح</string>
+    <string name="passwordUpdateSuccessfully">تم تحديث كلمة المرور  بنجاح</string>
+    <string name="updateDateSuccessfully">تم تحديث البيانات بنجاح</string>
+    <string name="wrongPassword">كلمة المرور خاطئة</string>
+    <string name="hello">مرحباً</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "623963810520",
+    "firebase_url": "https://tawriq-6a626-default-rtdb.firebaseio.com",
+    "project_id": "tawriq-6a626",
+    "storage_bucket": "tawriq-6a626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623963810520:android:daf372c1350e7a8c06c5ad",
+        "android_client_info": {
+          "package_name": "com.example.tawriqapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623963810520-at2d9f1l35fkg1avfu480clet3ksj5bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcv__VMDl7ksbRJBOl4e_-ZPJ-q2s1n6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623963810520-at2d9f1l35fkg1avfu480clet3ksj5bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

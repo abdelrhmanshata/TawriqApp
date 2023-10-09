@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".Fragment.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/itemSearch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/border_search"
+            android:drawableStart="@drawable/ic_search_item"
+            android:drawablePadding="@dimen/_10sdp"
+            android:hint="إبحث عن كتاب"
+            android:inputType="text"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorGray"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            tools:ignore="MissingConstraints" />
+
+        <RadioGroup
+            android:id="@+id/radioFilterType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp"
+            tools:ignore="UselessParent">
+
+            <RadioButton
+                android:id="@+id/radioAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/radio_selector_filter"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:elevation="10dp"
+                android:minWidth="@dimen/_50sdp"
+                android:padding="@dimen/_4sdp"
+                android:text=" الكل "
+                android:textAlignment="center"
+                android:textColor="@color/colorDark"
+                android:textSize="@dimen/_14sdp" />
+
+            <RadioButton
+                android:id="@+id/radioFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/radio_selector_filter"
+                android:button="@android:color/transparent"
+                android:drawableEnd="@drawable/filter"
+                android:drawablePadding="@dimen/_4sdp"
+                android:elevation="10dp"
+                android:minWidth="@dimen/_75sdp"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/Sort_by"
+                android:textAlignment="center"
+                android:textColor="@color/colorDark"
+                android:textSize="@dimen/_14sdp" />
+        </RadioGroup>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/emptyImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="2dp"
+            android:visibility="gone"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/empty"
+            tools:ignore="MissingConstraints" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridView
+                android:id="@+id/itemsGridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:numColumns="2"
+                tools:listitem="@layout/list_filter_item" />
+
+            <ProgressBar
+                android:id="@+id/progressCircle"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/progress"
+                tools:ignore="MissingConstraints" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
